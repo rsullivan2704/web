@@ -17,5 +17,5 @@ odoo.define('web_html_field_tree_view.ColumnHtml', function (require) {
         }
     });
 
-    registry.add('field.html', ColumnHtml);
+    registry.add('field.formattedhtml', ColumnHtml);
 });
