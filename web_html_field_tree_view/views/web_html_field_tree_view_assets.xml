@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--© 2018 Robert J Sullivan
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl) -->
+
+<odoo>
+    <template id="web_widget_html_field_tree_view_assets_backend"
+              name="web_widget_html_field_tree_view assets"
+              inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript"
+                    src="/web_html_field_tree_view/static/src/js/web_html_field_tree_view.js"/>
+        </xpath>
+    </template>
+</odoo>
