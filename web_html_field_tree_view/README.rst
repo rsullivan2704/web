@@ -31,8 +31,7 @@ using this type will render its html value as formatted html in a list/tree view
 Known issues
 ============
 
-* Fields defined as *formattedhtml* will throw an error when viewing them in a form
-view. The workaround is to add *widget="html"* to the field definition in the form view.
+ * Fields defined as *formattedhtml* will throw an error when viewing them in a form view. The workaround is to add *widget="html"* to the field definition in the form view.
 
 
 Bug Tracker
