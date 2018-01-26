@@ -25,13 +25,14 @@ To install this module, you need to:
 Usage
 =====
 
-This module adds a new field type (formattedhtml) to Odoo. Any field defined
-using this type will render its html value as formatted html in a list/tree view.
+This module adds a new field type (formattedhtml) to Odoo. Any field defined using this type will render its html value as formatted html in a list/tree view. 
+
+When using *formattedhtml* in a field definition the model should have the following import statement: **from odoo.addons import web_html_field_tree_view**
 
 Known issues
 ============
 
- * Fields defined as *formattedhtml* will throw an error when viewing them in a form view. The workaround is to add *widget="html"* to the field definition in the form view.
+ * Fields defined as *formattedhtml* will throw an error when viewing them in a form view. The workaround is to add **widget="html"** to the field definition in the form view.
 
 
 Bug Tracker
