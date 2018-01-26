@@ -2,4 +2,7 @@
 # © 2018 Robert J Sullivan
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-import models
+from odoo import fields
+
+class FormattedHtml(fields.Html):
+    type = 'formattedhtml'
