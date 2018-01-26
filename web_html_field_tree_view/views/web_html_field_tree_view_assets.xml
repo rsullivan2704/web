@@ -3,8 +3,8 @@
     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl) -->
 
 <odoo>
-    <template id="web_widget_html_field_tree_view_assets_backend"
-              name="web_widget_html_field_tree_view assets"
+    <template id="web_html_field_tree_view_assets_backend"
+              name="web_html_field_tree_view assets"
               inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
             <script type="text/javascript"
