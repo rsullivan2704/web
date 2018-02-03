@@ -33,7 +33,7 @@ When using *formattedhtml* in a field definition (within another module) the mod
 Known issues
 ============
 
-* Fields defined as *formattedhtml* will throw an error when viewing them in a form view. The workaround is to add **widget="html"** to the field definition in the form view.
+* Fields defined as *formattedhtml* will throw an error when viewing them in a form view (see `here <https://github.com/rsullivan2704/web/issues/6>`_). The workaround is to add **widget="html"** to the field definition in the form view.
 
 
 Bug Tracker
