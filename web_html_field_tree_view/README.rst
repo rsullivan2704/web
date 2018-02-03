@@ -18,8 +18,7 @@ Installation
 To install this module, you need to:
 
 * Go to Apps
-* Search by module name "HTML Field in Tree View" or
-   by module technical name "*web_html_field_tree_view*"
+* Search by the module name "HTML Field in Tree View" or by the module technical name "*web_html_field_tree_view*"
 * Click install button
 
 Usage
@@ -27,8 +26,9 @@ Usage
 
 This module adds a new field type (formattedhtml) to Odoo. Any field defined using this type will render its html value as formatted html in a list/tree view. 
 
-When using *formattedhtml* in a field definition the model should have the following import statement: 
-**from odoo.addons import web_html_field_tree_view**
+When using *formattedhtml* in a field definition the model should have the following import statement:
+
+* **from odoo.addons import web_html_field_tree_view**
 
 Known issues
 ============
